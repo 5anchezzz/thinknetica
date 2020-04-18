@@ -21,4 +21,5 @@ basket.each do |name, info|
   sum += info[:total]
 end
 
+puts basket
 puts "Общая стоимость: #{sum.round(2)}"
